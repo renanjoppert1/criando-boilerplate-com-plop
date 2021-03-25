@@ -1,20 +1,15 @@
-# teste01
+# Configuração do Plop no Nuxt
 
-## Build Setup
+## Primeiros Passos de Instalação
 
-```bash
-# install dependencies
-$ npm install
+- Copie o plopfile.js na raiz do projeto
+- Copie a pasta plop na raiz do projeto
+- Adicione <strong>"plop": "plop"</strong> em scripts no package.json
+- Execute <strong>npm install --save-dev plop</strong> no terminal
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Rodando
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+- No terminal execute <strong>npm run plop</strong>
+- Selecione a tarefa que deseja executar
+- Responda as perguntas
+- Done! Thats works
